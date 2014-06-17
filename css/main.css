@@ -42,9 +42,18 @@ code {
 body {
   font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
 }
+
+header {
+  padding-left:20px;
+  padding-bottom:10px;
+  border-bottom:1px solid black;
+}
+
 #masthead {
+  padding-top:30px;
   margin: 0px auto;
   background-color:yellow;
+  border-bottom:1px solid black;
 }
 .site-branding {
   width:100%;
@@ -99,6 +108,11 @@ a:hover,
 a:focus,
 a:active {
   color: #2571bd;
+}
+
+h1 {
+  font-size:16px;
+
 }
 /* 4. Navigation Menu 
 -------------------------------------------------------	*/
@@ -169,6 +183,10 @@ div.slide-description {
 ------------------------------------------------------- */
 #content {
   background: yellow;
+  padding:0;
+}
+.entry-content {
+  padding-left:15px;
 }
 /* 6.1 Primary 
 ------------------------------------------------------- */
@@ -304,10 +322,10 @@ div.slide-description {
 /* 8. Footer 
 ------------------------------------------------------- */
 #colophon {
-  background: #f8f8f8;
+  background: yellow;
   padding: 10px;
-  border-top: solid 1px #ddd;
-  border-bottom: solid 4px #ddd;
+  border-top: solid 1px black;
+  margin-bottom:20px;
 }
 #footertext {
   float: right;

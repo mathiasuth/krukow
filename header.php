@@ -28,7 +28,6 @@
 			<?php
 			echo "<img class='main_logo' src='".of_get_option('logo', true)."' title='".esc_attr(get_bloginfo( 'name','display' ) )."'></a></div>";	
 			?>
-			<div class="site-description"><?php bloginfo( 'description' ); ?></div>
 			<?php
 			}
 		else { ?>

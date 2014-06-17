@@ -8,7 +8,15 @@ get_header(); ?>
 	<div id="primary" class="full-width content-area .col-md-12">
 		<main id="main" class="site-main" role="main">
 
+
 			<?php while ( have_posts() ) : the_post(); ?>
+
+<?php if (has_post_thumbnail( $post->ID ) ): ?>
+<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' ); ?>
+<div class="featured-image"><img src="<?php echo $image[0]; ?>"></div>
+
+</div>
+<?php endif; ?>
 
 				<?php get_template_part( 'content', 'page' ); ?>
 

@@ -43,9 +43,14 @@ body {
   font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
 }
 #masthead {
-  margin: 40px auto;
+  margin: 0px auto;
+  background-color:yellow;
+}
+.site-branding {
+  width:100%;
 }
 .site-title {
+  float:left;
   font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
 }
 .site-title a {
@@ -55,6 +60,7 @@ body {
   text-decoration: none;
 }
 .site-description {
+  float:left;
   font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
   font-size: medium;
 }
@@ -97,17 +103,17 @@ a:active {
 /* 4. Navigation Menu 
 -------------------------------------------------------	*/
 .nav-wrapper {
-  background: #f8f8f8;
-  border-bottom: solid 1px #f1f1f1;
-}
+  background: yellow;
+/*  border-bottom: solid 1px #f1f1f1;
+*/}
 .nav-wrapper .navbar-default {
   margin-top: 5px;
   border: none;
   margin-bottom: 5px;
 }
 .nav-wrapper ul ul {
-  background: #e7e7e7;
-  border: none;
+/*  background: #e7e7e7;
+  */border: none;
 }
 .nav-wrapper ul ul a:hover {
   background: #f8f8f8;
@@ -116,6 +122,14 @@ a:active {
 ul.nav ul li.dropdown:hover > ul.dropdown-menu {
   /*  display: block;  */
 }
+.navbar-default {
+  background:yellow;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+  background:yellow;
+  text-decoration:underline;
+}
+
 /* 5. Slider
 -------------------------------------------------*/
 .slider-wrapper {
@@ -154,7 +168,7 @@ div.slide-description {
 /* 6. Content 
 ------------------------------------------------------- */
 #content {
-  background: white;
+  background: yellow;
 }
 /* 6.1 Primary 
 ------------------------------------------------------- */

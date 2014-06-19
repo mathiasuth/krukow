@@ -52,7 +52,7 @@ header {
 #masthead {
   padding-top:30px;
   margin: 0px auto;
-  background-color:yellow;
+  background-color:#E1E100;
   border-bottom:1px solid black;
 }
 .site-branding {
@@ -117,7 +117,7 @@ h1 {
 /* 4. Navigation Menu 
 -------------------------------------------------------	*/
 .nav-wrapper {
-  background: yellow;
+  background: #E1E100;
 /*  border-bottom: solid 1px #f1f1f1;
 */}
 .nav-wrapper .navbar-default {
@@ -137,10 +137,10 @@ ul.nav ul li.dropdown:hover > ul.dropdown-menu {
   /*  display: block;  */
 }
 .navbar-default {
-  background:yellow;
+  background:#E1E100;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
-  background:yellow;
+  background:#E1E100;
   text-decoration:underline;
 }
 
@@ -182,7 +182,7 @@ div.slide-description {
 /* 6. Content 
 ------------------------------------------------------- */
 #content {
-  background: yellow;
+  background: #E1E100;
   padding:0;
 }
 .entry-content {
@@ -322,7 +322,7 @@ div.slide-description {
 /* 8. Footer 
 ------------------------------------------------------- */
 #colophon {
-  background: yellow;
+  background: #E1E100;
   padding: 10px;
   border-top: solid 1px black;
   margin-bottom:20px;

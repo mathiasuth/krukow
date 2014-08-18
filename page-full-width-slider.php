@@ -17,7 +17,7 @@ get_header(); ?>
 		  		for ($i=1;$i<6;$i++) {
 		  			$caption = ((of_get_option('slidetitle'.$i, true)=="")?"":"#caption_".$i);
 					if ( of_get_option('slide'.$i, true) != "" ) {
-						echo "<img src='".of_get_option('slide'.$i, true)."' title='".$caption."'>"; 
+						echo "<a href='".of_get_option('slideurl'.$i, true)."'><img src='".of_get_option('slide'.$i, true)."' title='".$caption."'></a>"; 
 						$slider_flag = true;
 					}
 				}

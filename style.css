@@ -405,6 +405,9 @@ textarea {
 	background : none;
 	border:0;
 }
+.entry-content table td{
+	border:0;
+}
 .page-links {
 	clear: both;
 	margin: 0 0 1.5em;

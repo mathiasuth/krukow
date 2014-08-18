@@ -37,7 +37,7 @@ jQuery(document).ready(function() {
 });
  
  jQuery(window).load( function() {
- 	jQuery('#slider').nivoSlider({effect:'boxRandom', pauseTime: 5500,});
+ 	jQuery('#slider').nivoSlider({effect:'slideInLeft',});
  });   	
     	
 function hefct() {
